@@ -1,0 +1,57 @@
+<taglib version="2.0">
+<tlib-version>2.0</tlib-version>
+<short-name>Slot tag</short-name>
+<uri>http://www.siple.tags</uri>
+<!-- Free Slot Tag used to generate Free List -->
+<tag>
+<name>fslot_tag</name>
+<tag-class>com.timetable.model.FreeListTag</tag-class>
+<body-content>empty</body-content>
+<attribute>
+<name>fac</name>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+<attribute>
+<name>slot</name>
+</attribute>
+<attribute>
+<name>day</name>
+</attribute>
+</tag>
+
+<!-- Blocked Slot Tag used to generate Blocked List -->
+<tag>
+<name>bslot_tag</name>
+<tag-class>com.timetable.model.BlockedListTag</tag-class>
+<body-content>empty</body-content>
+<attribute>
+<name>fac</name>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+<attribute>
+<name>slot</name>
+</attribute>
+<attribute>
+<name>day</name>
+</attribute>
+</tag>
+
+
+<!-- Individual List Slot tag used to build individual list -->
+<tag>
+<name>islot_tag</name>
+<tag-class>com.timetable.model.IndividualListTag</tag-class>
+<body-content>empty</body-content>
+<attribute>
+<name>lec</name>
+<rtexprvalue>true</rtexprvalue>
+</attribute>
+<attribute>
+<name>slot</name>
+</attribute>
+<attribute>
+<name>day</name>
+</attribute>
+</tag>
+
+</taglib>
